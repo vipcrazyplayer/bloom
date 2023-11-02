@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 90px;
+  width: 1520px;
+}
+
+.navbar {
+  width: 35%;
+}
+
+.navbar img {
+  cursor: pointer;
+}
+
+.navList {
+  display: flex;
+  gap: 30px;
+}
+
+.navList li {
+  display: flex;
+  text-decoration: none;
+  cursor: pointer;
+}

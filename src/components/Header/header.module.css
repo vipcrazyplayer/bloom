@@ -1,0 +1,41 @@
+.item {
+  height: 720px;
+  background-color: #7c44f1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1520px;
+}
+
+.itemText {
+  width: 40%;
+  padding-left: 100px;
+}
+
+.txt {
+  font-size: 100px;
+  color: #fed0da;
+}
+
+.supTxt {
+  font-size: 35px;
+  color: #ffffff;
+}
+
+.itemImg {
+  position: absolute;
+}
+
+.itemImage {
+  position: relative;
+  z-index: 2;
+  right: 180px;
+  top: 190px;
+}
+
+.itemList {
+  display: flex;
+  justify-content: space-evenly;
+  height: 90px;
+  cursor: pointer;
+}

@@ -1,0 +1,56 @@
+.foot {
+  display: flex;
+  background-color: #7c44f1;
+  height: 220px;
+}
+
+.footBtn {
+  display: flex;
+  width: 270px;
+  background-color: #280f5b;
+  margin: 80px;
+  margin-left: 90px;
+  padding: 10px 30px 10px 10px;
+  gap: 5px;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.footBtn img {
+  margin: auto;
+  width: 30px;
+  height: 30px;
+}
+
+.footSub {
+  gap: 5px;
+  height: 1px;
+  display: flex;
+}
+
+.footSub img {
+  width: 15px;
+  height: 14px;
+}
+
+.footSub h3 {
+  margin-top: 0;
+}
+
+.footSup {
+  height: 10px;
+  color: #bdbdbd;
+}
+
+.footList {
+  width: 50%;
+  margin-top: 20px;
+}
+
+.footList li {
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+  padding: 8px;
+}
